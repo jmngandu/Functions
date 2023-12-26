@@ -6,6 +6,6 @@ Tag.push("Burundi")//push adds a word to the array
 Tag.unshift("Somalia")//unshift adds a word to the beginning of an array
 delete 
 document.querySelector(".clicker").innerText = countries.toString()//to print the string
-document.querySelector(".clicke").innerText = Tag.join(" - ")//Join is used to separate array elements 
+document.querySelector(".clicke").innerText = countries.join(" - ")//Join is used to separate array elements 
 
 
