@@ -1,5 +1,7 @@
 
 countries = ["Kenya", "Uganda", "Tanzania", "Rwanda"];
+names = ("James", "John", "Rose","Lucy")
+countries.sort()
 countries.pop();//pop is used to remove the last word
 countries.shift()//shift is used remove the first word
 countries.push("Burundi")//push adds a word to the array
@@ -9,4 +11,3 @@ countries.splice(1, 0, "Nigeria", "Niger")//Here splice adds nigeria to the firs
 document.querySelector(".clicker").innerText = countries.toString()//to print the string
 document.querySelector(".clicke").innerText = countries.join(" - ")//Join is used to separate array elements 
 document.querySelector(".clickerr").innerText = countries.length//to determine number of elements in an array
-countries.sort
