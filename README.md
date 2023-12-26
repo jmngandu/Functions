@@ -1,1 +1,1 @@
-Persona JS review
+Personal JS review
