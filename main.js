@@ -1,7 +1,8 @@
 
 countries = ["Kenya", "Uganda", "Tanzania", "Rwanda"];
-names = ("James", "John", "Rose","Lucy")
-countries.sort()
+names = ["James", "Yvonne", "Rose","Lucy","Allan"]
+names.sort()//used to arrange names in alphabetical order
+document.getElementById("name").innerText = names
 countries.pop();//pop is used to remove the last word
 countries.shift()//shift is used remove the first word
 countries.push("Burundi")//push adds a word to the array
