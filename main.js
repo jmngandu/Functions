@@ -3,7 +3,8 @@ countries = ["Kenya", "Uganda", "Tanzania", "Rwanda"];
 names = ["James", "Yvonne", "Rose","Lucy","Allan"]
 names.sort()//used to arrange names in alphabetical order
 names.reverse()//To reverse sorted elements
-document.getElementById("name").innerText = names
+combined = countries.concat(names)//to concatenate arrays
+document.getElementById("name").innerText = combined
 countries.pop();//pop is used to remove the last word
 countries.shift()//shift is used remove the first word
 countries.push("Burundi")//push adds a word to the array
