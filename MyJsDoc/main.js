@@ -287,6 +287,8 @@ const towns = ["Kitui", "turkana", "lamu", "isiolo"];
 //spread operator in arrays
 
 const subjects = ["Geography", "history", "English"];
-const teachers = ["allan", "peter", "george"];
-const concat = [...subjects, ...teachers];
-console.log(concat);
+const others = ["Physics", "Biology", "Chemistry"];
+const allSubjects = [...subjects, ...others, "Computer"];
+// console.log(allSubjects);
+
+//spread operator on objects
