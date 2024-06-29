@@ -292,7 +292,20 @@ const allSubjects = [...subjects, ...others, "Computer"];
 // console.log(allSubjects);
 
 //spread operator on objects
-const petrolStations = { shell: 1, total: 2 };
-const otherStations = { rubis: 3, oilibya: 3 };
+const petrolStations = { Shell: 1, Total: 2 };
+const otherStations = { Rubis: 3, Oilibya: 3 };
 const allStations = { ...petrolStations, ...otherStations };
-console.log(allStations);
+// console.log(allStations);
+
+//REST OPERATOR-allows a function to accept an indefnite number of arguments
+function userD(...userData) {
+  console.log(userData);
+}
+// userD("javascript", "is fun");
+
+function someone(first, last, ...hobbies) {
+  console.log("First Name: ", first);
+  console.log("Last Name: ", last);
+  console.log("Hobbies: ", hobbies);
+}
+// someone("james", "mukuvi", "programming", "cooking", "Travelling");
