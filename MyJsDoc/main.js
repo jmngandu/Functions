@@ -256,3 +256,12 @@ const newton = userr("newton", 23, "programmer");
 // console.log(newton.intro());
 
 //DEFAULT FUNCTION PARAMETERS -allow you to assign default values to function parameters
+
+function deffun(rate = 0) {
+  if (rate === 5) {
+    console.log(`High ratings :)`);
+  } else if (rate === 0) {
+    console.log(`Low ratings :(`);
+  }
+}
+// deffun();
