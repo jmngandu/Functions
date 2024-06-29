@@ -270,3 +270,23 @@ function multiply(a, b = 1) {
   return a * b;
 }
 // console.log(multiply(6, 7));
+
+//SPREAD OPERATOR -it takes an iterable(eg an array ) and expands it into indivudual elements
+
+//spread in functions
+
+function spreadMe(a, b, c, d) {
+  console.log("A", a);
+  console.log("B", b);
+  console.log("C", c);
+  console.log("D", d);
+}
+const towns = ["Kitui", "turkana", "lamu", "isiolo"];
+// spreadMe(...towns);
+
+//spread operator in arrays
+
+const subjects = ["Geography", "history", "English"];
+const teachers = ["allan", "peter", "george"];
+const concat = [...subjects, ...teachers];
+console.log(concat);
