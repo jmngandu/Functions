@@ -220,4 +220,8 @@ const thisMillisecond = currentDate.getMilliseconds(); //milliseconds
 //   // console.log("interval stopped");
 // }, 10000);
 
-console.log("hello");
+//template strings
+console.log(`
+hello
+     i am
+          james`);
