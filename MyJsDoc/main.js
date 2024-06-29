@@ -292,3 +292,7 @@ const allSubjects = [...subjects, ...others, "Computer"];
 // console.log(allSubjects);
 
 //spread operator on objects
+const petrolStations = { shell: 1, total: 2 };
+const otherStations = { rubis: 3, oilibya: 3 };
+const allStations = { ...petrolStations, ...otherStations };
+console.log(allStations);
