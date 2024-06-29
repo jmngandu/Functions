@@ -200,3 +200,7 @@ const thisMillisecond = currentDate.getMilliseconds(); //milliseconds
 // console.log(currentDate.toLocaleString());
 
 //set interval
+
+setInterval(() => {
+  console.log("hello dad and mum");
+}, 2000);
