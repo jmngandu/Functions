@@ -207,5 +207,5 @@ setInterval(() => {
 
 //settimeout-the code waits for the set time and executes
 setTimeout(function () {
-  console.log("This function will be executed after three seconds");
+  // console.log("This function will be executed after three seconds");
 }, 3000);
