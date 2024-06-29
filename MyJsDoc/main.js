@@ -189,12 +189,14 @@ const thisDay = currentDate.getDay(); //day
 const thisHour = currentDate.getHours(); //hours
 const thisMinute = currentDate.getMinutes(); //minute
 const thisMillisecond = currentDate.getMilliseconds(); //milliseconds
-console.log(`Year ${thisYear}`);
-console.log(`Month ${thisMonth}`);
-console.log(`Day ${thisDay}`);
-console.log(`Hour ${thisHour}`);
-console.log(`Minute ${thisMinute}`);
-console.log(`Millisecond ${thisMillisecond}`);
-console.log(currentDate.toDateString()); //datestring
-console.log(currentDate.toISOString()); //ISO format
-console.log(currentDate.toLocaleString());
+// console.log(`Year ${thisYear}`);
+// console.log(`Month ${thisMonth}`);
+// console.log(`Day ${thisDay}`);
+// console.log(`Hour ${thisHour}`);
+// console.log(`Minute ${thisMinute}`);
+// console.log(`Millisecond ${thisMillisecond}`);
+// console.log(currentDate.toDateString()); //datestring
+// console.log(currentDate.toISOString()); //ISO format
+// console.log(currentDate.toLocaleString());
+
+//set interval
