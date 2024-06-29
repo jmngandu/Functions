@@ -220,9 +220,22 @@ const thisMillisecond = currentDate.getMilliseconds(); //milliseconds
 //   // console.log("interval stopped");
 // }, 10000);
 
-//template strings
+//TEMPLATE STRINGS//
+
 // console.log(`
 // hello
 //      i am
 //           james`);
 // console.log(`${3 + 9}`);
+
+function info() {
+  return `My name is james`;
+}
+// console.log(`${info()}`);
+
+//ARROW FUNCTIONS
+
+const namei = (jina, nchi) => {
+  return `mama ${jina} anaishi ${nchi}`;
+};
+console.log(namei("africa ", "kenya"));
