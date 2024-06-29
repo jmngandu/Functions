@@ -1,4 +1,3 @@
-// console.log("hello");
 let firstName = "james";
 firstName += " he is a good boy";
 // console.log(firstName.length);
@@ -9,13 +8,6 @@ firstName += " he is a good boy";
 // console.log(firsonsole.log(jsonString);
 // console.log(parseObject);tName.split(" "));
 // console.log(firstName.split("").join(" + "));
-
-let music = `
-    heal 
-    me`;
-
-// console.log(parseObject);
-// console.log(music);
 
 //type operator
 let money = "50";
@@ -262,3 +254,5 @@ const tesla = userr("tess", 20, "engineer");
 const newton = userr("newton", 23, "programmer");
 // console.log(tesla);
 // console.log(newton.intro());
+
+//DEFAULT FUNCTION PARAMETERS -allow you to assign default values to function parameters
