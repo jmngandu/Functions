@@ -238,7 +238,7 @@ function info() {
 const namei = (jina, nchi) => {
   return `mama ${jina} anaishi ${nchi}`;
 };
-console.log(namei("africa ", "kenya"));
+// console.log(namei("africa ", "kenya"));
 
 hey = (username) => `hello ${username}`; //for a single line code
-console.log(hey("james"));
+// console.log(hey("james"));
