@@ -245,3 +245,5 @@ hey = (username) => `hello ${username}`; //for a single line code
 
 county = (center) => ` ${center}`;
 // console.log(county("maliku"));
+
+//ENHANCED OBJECT LITERALS - are set of enhancements to the syntax for defining objects in javascript
