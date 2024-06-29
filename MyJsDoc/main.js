@@ -221,7 +221,8 @@ const thisMillisecond = currentDate.getMilliseconds(); //milliseconds
 // }, 10000);
 
 //template strings
-console.log(`
-hello
-     i am
-          james`);
+// console.log(`
+// hello
+//      i am
+//           james`);
+// console.log(`${3 + 9}`);
