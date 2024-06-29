@@ -202,5 +202,10 @@ const thisMillisecond = currentDate.getMilliseconds(); //milliseconds
 //set interval
 
 setInterval(() => {
-  console.log("hello dad and mum");
+  // console.log("hello dad and mum");
 }, 2000);
+
+//settimeout
+setTimeout(function () {
+  console.log("This function will be executed after three seconds");
+});
