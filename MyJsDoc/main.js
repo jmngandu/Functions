@@ -250,10 +250,15 @@ county = (center) => ` ${center}`;
 
 function userr(name, age, work) {
   return {
-    name: name,
-    age: age,
-    work: work,
+    name,
+    age,
+    work,
+    intro: () => {
+      console.log(`My name is ${name} & I'm ${age} years old & I'm a ${work}`);
+    },
   };
 }
 const tesla = userr("tess", 20, "engineer");
+const newton = userr("newton", 23, "programmer");
 console.log(tesla);
+console.log(newton.intro());
