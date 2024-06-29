@@ -242,3 +242,6 @@ const namei = (jina, nchi) => {
 
 hey = (username) => `hello ${username}`; //for a single line code
 // console.log(hey("james"));
+
+county = (center) => ` ${center}`;
+// console.log(county("maliku"));
