@@ -199,13 +199,13 @@ const thisMillisecond = currentDate.getMilliseconds(); //milliseconds
 // console.log(currentDate.toISOString()); //ISO format
 // console.log(currentDate.toLocaleString());
 
-//set interval
+//set interval-the code keeps on running after the set interval
 
 setInterval(() => {
   // console.log("hello dad and mum");
 }, 2000);
 
-//settimeout
+//settimeout-the code waits for the set time and executes
 setTimeout(function () {
   console.log("This function will be executed after three seconds");
-});
+}, 3000);
