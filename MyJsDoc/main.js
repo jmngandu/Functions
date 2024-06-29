@@ -309,3 +309,5 @@ function someone(first, last, ...hobbies) {
   console.log("Hobbies: ", hobbies);
 }
 // someone("james", "mukuvi", "programming", "cooking", "Travelling");
+
+// DESTRUCTURING - allows us to "unpack" values from data-structures (Arrays,objects) into separate distinct variables
