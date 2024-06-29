@@ -265,3 +265,8 @@ function deffun(rate = 0) {
   }
 }
 // deffun();
+
+function multiply(a, b = 1) {
+  return a * b;
+}
+// console.log(multiply(6, 7));
