@@ -336,4 +336,9 @@ const [o, , p] = fn(); //ignoring a value in return
 
 //assigning rest of an array to a variable
 const [d, ...e] = ["laptop", "phone", "computer"];
-console.log(e);
+// console.log(e);
+
+const colors = ["red", "green", "blue", "yellow", "orange"];
+const [color1, , color2, ...color3] = colors; //all
+console.log(color2);
+//OBJECT DESTRUCTURING
