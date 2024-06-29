@@ -310,4 +310,11 @@ function someone(first, last, ...hobbies) {
 }
 // someone("james", "mukuvi", "programming", "cooking", "Travelling");
 
-// DESTRUCTURING - allows us to "unpack" values from data-structures (Arrays,objects) into separate distinct variables
+// DESTRUCTURING - allows us to "unpack" values from data-structures (Arrays,objects,functions) into separate distinct variables
+
+//ARRAY DESTRUCTURING
+
+const family = ["father", "mother", "children"];
+
+const [x, y, z] = family;
+console.log(x);
