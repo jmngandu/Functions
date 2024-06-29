@@ -201,11 +201,23 @@ const thisMillisecond = currentDate.getMilliseconds(); //milliseconds
 
 //set interval-the code keeps on running after the set interval
 
-setInterval(() => {
-  // console.log("hello dad and mum");
-}, 2000);
+// setInterval(() => {
+//   // console.log("hello dad and mum");
+// }, 2000);
 
-//settimeout-the code waits for the set time and executes
-setTimeout(function () {
-  // console.log("This function will be executed after three seconds");
-}, 3000);
+// //settimeout-the code waits for the set time and executes
+// setTimeout(function () {
+//   // console.log("This function will be executed after three seconds");
+// }, 3000);
+
+// //stop interval after 10seconds
+
+// const intervalId = setInterval(() => {
+//   // console.log("This function is being executed after an interval");
+// }, 1000);
+// setTimeout(() => {
+//   // clearInterval(intervalId);
+//   // console.log("interval stopped");
+// }, 10000);
+
+console.log("hello");
