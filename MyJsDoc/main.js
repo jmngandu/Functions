@@ -317,4 +317,23 @@ function someone(first, last, ...hobbies) {
 const family = ["father", "mother", "children"];
 
 const [x, y, z] = family;
-console.log(x);
+// console.log(x);
+
+function f() {
+  return [1, 2];
+}
+let l, m;
+[l, m] = f();
+// console.log(l);
+// console.log(m);
+
+function fn() {
+  return [1, 2, 3];
+}
+const [o, , p] = fn(); //ignoring a value in return
+// console.log(o);
+// console.log(p);
+
+//assigning rest of an array to a variable
+const [d, ...e] = ["laptop", "phone", "computer"];
+console.log(e);
