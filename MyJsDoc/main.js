@@ -247,3 +247,13 @@ county = (center) => ` ${center}`;
 // console.log(county("maliku"));
 
 //ENHANCED OBJECT LITERALS - are set of enhancements to the syntax for defining objects in javascript
+
+function userr(name, age, work) {
+  return {
+    name: name,
+    age: age,
+    work: work,
+  };
+}
+const tesla = userr("tess", 20, "engineer");
+console.log(tesla);
