@@ -260,5 +260,5 @@ function userr(name, age, work) {
 }
 const tesla = userr("tess", 20, "engineer");
 const newton = userr("newton", 23, "programmer");
-console.log(tesla);
-console.log(newton.intro());
+// console.log(tesla);
+// console.log(newton.intro());
