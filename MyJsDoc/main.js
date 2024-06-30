@@ -312,7 +312,7 @@ function someone(first, last, ...hobbies) {
 
 // DESTRUCTURING - allows us to "unpack" values from data-structures (Arrays,objects,functions) into separate distinct variables
 
-//ARRAY DESTRUCTURING
+//ARRAY DESTRUCTURING -name doesn't matter but the order does matter
 
 const family = ["father", "mother", "children"];
 
@@ -340,5 +340,14 @@ const [d, ...e] = ["laptop", "phone", "computer"];
 
 const colors = ["red", "green", "blue", "yellow", "orange"];
 const [color1, , color2, ...color3] = colors; //all
-console.log(color2);
-//OBJECT DESTRUCTURING
+// console.log(color1);
+// console.log(color2);
+// console.log(color3);
+
+//OBJECT DESTRUCTURING - order doesn't matter but the name does matter
+
+const coolCity = {
+  name: "Eldoret",
+  county: "Uasin Gishu",
+  business: "Farming",
+};
