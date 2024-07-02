@@ -354,6 +354,21 @@ const coolCity = {
 
 const { theName, theCounty, theBusiness } = coolCity;
 
-console.log(
-  `${theName} town is in ${theCounty} county and main economic activity is ${theBusiness}`
-);
+// console.log(
+//   `${theName} town is in ${theCounty} county and main economic activity is ${theBusiness}`
+// );
+
+//ADVANCED DESTRUCTURING
+const coolTown = {
+  theName: "Eldoret",
+  theCounty: "Uasin Gishu",
+  theBusiness: "Farming",
+};
+const {
+  theName: theTown, //for example changing the keys
+  theCounty: thePlace,
+  theBusiness: theEconomic,
+} = coolTown;
+// console.log(
+//   `${theTown} town is in ${thePlace} county and main economic activity is ${theEconomic}`
+// );
