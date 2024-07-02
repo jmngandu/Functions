@@ -351,3 +351,6 @@ const coolCity = {
   county: "Uasin Gishu",
   business: "Farming",
 };
+
+// const { name } = coolCity;
+// console.log(name);
