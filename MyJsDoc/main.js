@@ -347,10 +347,13 @@ const [color1, , color2, ...color3] = colors; //all
 //OBJECT DESTRUCTURING - order doesn't matter but the name does matter
 
 const coolCity = {
-  name: "Eldoret",
-  county: "Uasin Gishu",
-  business: "Farming",
+  theName: "Eldoret",
+  theCounty: "Uasin Gishu",
+  theBusiness: "Farming",
 };
 
-// const { name } = coolCity;
-// console.log(name);
+const { theName, theCounty, theBusiness } = coolCity;
+
+console.log(
+  `${theName} town is in ${theCounty} county and main economic activity is ${theBusiness}`
+);
