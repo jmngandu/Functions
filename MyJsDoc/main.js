@@ -372,3 +372,8 @@ const {
 // console.log(
 //   `${theTown} town is in ${thePlace} county and main economic activity is ${theEconomic}`
 // );
+
+//OBJECT DESTRUCTURNG AND REST OPERATOR
+
+let { ab, bc, ...rest } = { ab: 100, bc: 200, cd: 300, de: 400, ef: 500 };
+console.log(rest);
