@@ -376,4 +376,17 @@ const {
 //OBJECT DESTRUCTURNG AND REST OPERATOR
 
 let { ab, bc, ...rest } = { ab: 100, bc: 200, cd: 300, de: 400, ef: 500 };
-console.log(rest);
+// console.log(rest);
+
+//FUNCTION DESTRUCTURING
+const thePerson = {
+  isName: "James Mukuvi",
+  isAge: 20,
+  isCountry: "Kenya",
+};
+function personInfo(thePerson) {
+  console.log(`Name: ${thePerson.isName}`);
+  console.log(`Age: ${thePerson.isAge}`);
+  console.log(`Country: ${thePerson.isCountry}`);
+}
+personInfo(thePerson);
