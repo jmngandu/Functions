@@ -475,4 +475,6 @@ const textie = "Welcome";
 
 const colours = ["black", "white", "red", "green", "yellow"];
 
-colours.forEach((colour) => console.log(colour));
+// colours.forEach((colour) => console.log(colour));
+
+//MAP METHOD - creates a new array populated with the results of calling a provided function on every element in the calling array
