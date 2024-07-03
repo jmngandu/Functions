@@ -466,6 +466,13 @@ let people = ["James", "John", "Judy", "Jane"];
 // }
 
 const textie = "Welcome";
-for (char of textie) {
-  console.log(char);
-}
+// for (char of textie) {
+//   console.log(char);
+// }
+
+//FOREACH METHOD - when we call forEach Helper we pass in anonymous callback function
+//This function gets called one time for every element in the array
+
+const colours = ["black", "white", "red", "green", "yellow"];
+
+colours.forEach((colour) => console.log(colour));
