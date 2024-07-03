@@ -478,3 +478,9 @@ const colours = ["black", "white", "red", "green", "yellow"];
 // colours.forEach((colour) => console.log(colour));
 
 //MAP METHOD - creates a new array populated with the results of calling a provided function on every element in the calling array
+
+let numbers = [1, 2, 3, 4, 5, 6];
+let double = numbers.map((num) => num * 2);
+let triple = numbers.map((tri) => tri ** 3);
+console.log(double);
+console.log(triple);
