@@ -485,3 +485,14 @@ let double = numbers.map((num) => num * 2);
 let triple = numbers.map((tri) => tri ** 3);
 // console.log(double);
 // console.log(triple);
+
+let cars = [
+  { carName: "Mercedes", carType: "E300" },
+  { carName: "Subaru", carType: "Outback" },
+  { carName: "Toyota", carType: "Hillux" },
+];
+const brands = cars.map((carr) => {
+  return [carr.carName, carr.carType];
+});
+
+// console.log(brands);
