@@ -444,4 +444,8 @@ const drink = age >= 18 ? "You can take alcohol" : "You can take juice";
 
 // console.log(drink);
 
-//FOR IN LOOP
+//FOR IN LOOP - is used to iterate over the enumerable properties of an object. It is a way to loop through the keys of an object
+const fruitt = ["mango", "apple", "banana"];
+for (fr in fruitt) {
+  console.log(fruitt[fr]);
+}
