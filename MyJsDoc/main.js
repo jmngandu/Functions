@@ -397,9 +397,9 @@ const jamesM = {
   apartment: "JAMESAPP",
 };
 
-function jamesf(jamesM) {
-  console.log(`FAMILY: ${jamesM.fam}`);
-  console.log(`CAR: ${jamesM.car}`);
-  console.log(`APARTMENT: ${jamesM.apartment}`);
+function jamesf({ fam, car, apartment }) {
+  console.log(`FAMILY: ${fam}`);
+  console.log(`CAR: ${car}`);
+  console.log(`APARTMENT: ${apartment}`);
 }
 jamesf(jamesM);
