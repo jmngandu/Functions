@@ -426,5 +426,20 @@ const [, , , { title: mr }] = songs;
 //it takes three operands: a condition followed by a question mark(?), an expression to execute if the condition is true, followed by a colon(:), and an expression to execute if the condition is false
 
 // condition ? exprIfTrue : exprIfFalse;
+let password = 8;
+function passwordChecker(pw) {
+  // if (pw >= 8) {
+  //   return `Strong Password`;
+  // } else {
+  //   return `  Week password`;
+  // }
+  return pw >= 8 ? `Strong Password` : `Week password`;
+}
+const passW = passwordChecker(password);
+// console.log(passW);
 
-let password = 4;
+const age = 10;
+
+const drink = age >= 18 ? "You can take alcohol" : "You can take juice";
+
+console.log(drink);
