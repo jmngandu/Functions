@@ -398,8 +398,21 @@ const jamesM = {
 };
 
 function jamesf({ fam, car, apartment }) {
+  //function destructured
   console.log(`FAMILY: ${fam}`);
   console.log(`CAR: ${car}`);
   console.log(`APARTMENT: ${apartment}`);
 }
-jamesf(jamesM);
+// jamesf(jamesM);
+
+//NESTED DESTRUCTURING
+
+const songs = [
+  { title: "Lucky You ", singer: "Joyner", duration: "4.34" },
+  { title: "Just Like You ", singer: "NF", duration: "3.23" },
+  { title: " Humble singer", singer: "Kendrick Lamar", duration: "2.33" },
+  { title: " Old Town Road", singer: "Lil Nas X", duration: "1.43" },
+  { title: "Cold Sholder ", singer: "Central Cee", duration: "5.23" },
+];
+
+// console.log(songs[0].title);
