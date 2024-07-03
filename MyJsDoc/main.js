@@ -460,3 +460,12 @@ const list = ["one", "two", "three", "four"];
 // }
 
 //FOR-OF LOOP -It allows you to iterate directly over the values of the elements, rather than dealing with their indices or keys, which make the code more readable and less error-prone
+let people = ["James", "John", "Judy", "Jane"];
+// for (peo of people) {
+//   console.log(peo);
+// }
+
+const textie = "Welcome";
+for (char of textie) {
+  console.log(char);
+}
