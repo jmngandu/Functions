@@ -415,4 +415,9 @@ const songs = [
   { title: "Cold Sholder ", singer: "Central Cee", duration: "5.23" },
 ];
 
+const [, , { singer }] = songs;
+const [, , , { title: mr }] = songs;
+// console.log(singer);
+// console.log(mr);
+
 // console.log(songs[0].title);
