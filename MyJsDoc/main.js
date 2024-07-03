@@ -442,4 +442,6 @@ const age = 10;
 
 const drink = age >= 18 ? "You can take alcohol" : "You can take juice";
 
-console.log(drink);
+// console.log(drink);
+
+//FOR IN LOOP
