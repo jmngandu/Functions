@@ -445,7 +445,18 @@ const drink = age >= 18 ? "You can take alcohol" : "You can take juice";
 // console.log(drink);
 
 //FOR IN LOOP - is used to iterate over the enumerable properties of an object. It is a way to loop through the keys of an object
-const fruitt = ["mango", "apple", "banana"];
-for (fr in fruitt) {
-  console.log(fruitt[fr]);
-}
+const isMe = {
+  name: "James",
+  age: 21,
+  gender: "male",
+};
+// for (me in isMe) {
+//   console.log(isMe[me]);
+// }
+
+const list = ["one", "two", "three", "four"];
+// for (index in list) {
+//   console.log(`${index}: ${list[index]}`);
+// }
+
+//FOR-OF LOOP -It allows you to iterate directly over the values of the elements, rather than dealing with their indices or keys, which make the code more readable and less error-prone
