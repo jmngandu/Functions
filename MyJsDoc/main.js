@@ -481,6 +481,7 @@ const colours = ["black", "white", "red", "green", "yellow"];
 
 let numbers = [1, 2, 3, 4, 5, 6];
 let double = numbers.map((num) => num * 2);
+
 let triple = numbers.map((tri) => tri ** 3);
-console.log(double);
-console.log(triple);
+// console.log(double);
+// console.log(triple);
