@@ -390,3 +390,16 @@ function personInfo(thePerson) {
   console.log(`Country: ${thePerson.isCountry}`);
 }
 // personInfo(thePerson);
+
+const jamesM = {
+  fam: "jamess",
+  car: "mercedes benz",
+  apartment: "JAMESAPP",
+};
+
+function jamesf(jamesM) {
+  console.log(`FAMILY: ${jamesM.fam}`);
+  console.log(`CAR: ${jamesM.car}`);
+  console.log(`APARTMENT: ${jamesM.apartment}`);
+}
+jamesf(jamesM);
