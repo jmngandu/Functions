@@ -389,4 +389,4 @@ function personInfo(thePerson) {
   console.log(`Age: ${thePerson.isAge}`);
   console.log(`Country: ${thePerson.isCountry}`);
 }
-personInfo(thePerson);
+// personInfo(thePerson);
