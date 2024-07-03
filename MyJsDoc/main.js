@@ -421,3 +421,8 @@ const [, , , { title: mr }] = songs;
 // console.log(mr);
 
 // console.log(songs[0].title);
+
+//TERNARY OPERATOR - ias a concise way of writing conditional expressions
+//it takes three operands: a condition followed by a question mark(?), an expression to execute if the condition is true, followed by a colon(:), and an expression to execute if the condition is false
+
+// condition ? exprIfTrue : exprIfFalse;
