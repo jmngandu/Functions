@@ -513,4 +513,14 @@ let myCars = [
 ];
 let filterType = myCars.filter((myCar) => myCar.carType == "Hillux");
 
-console.log(filterType);
+// console.log(filterType);
+
+const computers = [
+  { ram: 4, hdd: 100 },
+  { ram: 8, hdd: 200 },
+  { ram: 16, hdd: 300 },
+  { ram: 32, hdd: 400 },
+];
+
+let largeSpace = computers.filter((comp) => comp.ram >= 16);
+// console.log(largeSpace);
