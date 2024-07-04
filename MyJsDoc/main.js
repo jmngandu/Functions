@@ -550,3 +550,6 @@ let myBest = [
   { carName: "Toyota", carType: "Hillux" },
   { carName: "Porshe", carType: "cayenne" },
 ];
+
+const brandName = myBest.find((carbrand) => carbrand === porche);
+console.log(brandName);
