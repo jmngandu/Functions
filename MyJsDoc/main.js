@@ -566,3 +566,5 @@ const friendss = ["Joshua", "Carol", "Alex"];
 const someFriend = friendss.some((friend) => friend.length === 4);
 
 // console.log(someFriend);
+
+//REDUCE METHOD
