@@ -549,8 +549,11 @@ let myBest = [
   { carName: "Subaru", carType: "Outback" },
   { carName: "Toyota", carType: "Hillux" },
   { carName: "Porsche", carType: "cayenne" },
-  { carName: "Porsche", carType: "911" },
 ];
 
 const brandName = myBest.find((carbrand) => carbrand.carName === "Porsche");
 console.log(brandName);
+
+//EVERY METHOD -tests whether all elements in the array pass the condition specified by the provided callback function. It returns true for every element, and false if any element fails the condition.
+
+//SOME METHOD - tests whether at least one element in the array passes the condition specified by the provided callback function. It returns true if the callback function returns true for at least one element, and false if no element passes the condition
