@@ -544,3 +544,9 @@ let largeLength = wordss.filter((lale) => lale.length > 6);
 // console.log(largeLength);
 
 //FIND METHOD - allows you to find the first element in an array that matches a specific condition. It returns the value of the first element that satisfies the given testing function, or undefined if no element is found
+let myBest = [
+  { carName: "Mercedes", carType: "E300" },
+  { carName: "Subaru", carType: "Outback" },
+  { carName: "Toyota", carType: "Hillux" },
+  { carName: "Porshe", carType: "cayenne" },
+];
