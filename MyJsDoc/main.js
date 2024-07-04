@@ -596,5 +596,8 @@ map.set(keyThree, "Value of key three");
 
 //SETS DATA STRUCTURE -Represents a collection of unique values. unlike arrays, sets allows you to store only unique values, which means duplicate values are automatically removed.
 
-const mySet = new Set();
+//const mySet = new Set() -- how set is created
+
+const initialValues = [1, 2, 2, 2, 3];
+const mySet = new Set(initialValues);
 console.log(mySet);
