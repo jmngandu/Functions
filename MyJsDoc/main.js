@@ -556,4 +556,12 @@ const brandName = myBest.find((carbrand) => carbrand.carName === "Porsche");
 
 //EVERY METHOD -tests whether all elements in the array pass the condition specified by the provided callback function. It returns true for every element, and false if any element fails the condition.
 
+const friends = ["Joshua", "Carol", "Alex"];
+const everyFriend = friends.every((friend) => friend.length === 4);
+
+console.log(everyFriend);
 //SOME METHOD - tests whether at least one element in the array passes the condition specified by the provided callback function. It returns true if the callback function returns true for at least one element, and false if no element passes the condition
+const friendss = ["Joshua", "Carol", "Alex"];
+const someFriend = friendss.some((friend) => friend.length === 4);
+
+console.log(someFriend);
