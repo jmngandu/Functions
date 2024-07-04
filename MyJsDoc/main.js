@@ -496,3 +496,15 @@ const brands = cars.map((carr) => {
 });
 
 // console.log(brands);
+
+const numberValues = [2, 3, 4, 5, 6, 7, 8, 9];
+function numberCalc(val) {
+  return val * 10;
+}
+
+const timesTen = numberValues.map(numberCalc);
+// console.log(timesTen);
+
+//FILTER METHOD - it allows you to create a new array containing elements that pass a certain condition.
+
+const numberValue = [2, 3, 4, 5, 6, 7, 8, 9];
