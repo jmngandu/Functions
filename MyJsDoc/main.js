@@ -574,3 +574,5 @@ const sum = favNumbers.reduce((e, f) => {
   return e + f;
 });
 // console.log(sum);
+
+//MAP DATA STRUCTURE - Allows you to store key-value pairs where both the keys and values can be  of any data type. Map preserves the order of key-value pairs as they were inserted, map provides built-in methods for easy iteration over its elements
