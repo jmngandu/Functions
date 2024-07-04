@@ -528,3 +528,17 @@ let largeSpace = computers.filter((comp) => comp.ram >= 16);
 const agess = [32, 33, 16, 40];
 let adult = agess.filter((ag) => ag > 18);
 // console.log(adult);
+
+//print only those words which length is greater than 6
+
+const wordss = [
+  "spray",
+  "limit",
+  "elite",
+  "exuberant",
+  "destruction",
+  "present",
+];
+
+let largeLength = wordss.filter((lale) => lale.length > 6);
+console.log(largeLength);
