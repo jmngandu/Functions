@@ -614,5 +614,7 @@ mySet.clear(); //clears everything in the set
 
 //SYMBOLS IN JAVASCRIPT -Is a unique and immutable primitive data type, a symbol is often used as an identifier for object properties to avoid potential naming conflicts
 
+// const mySymbol = Symbol() -- how set is created
 const mySymbol = Symbol();
+
 console.log(mySymbol);
