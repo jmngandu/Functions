@@ -602,6 +602,7 @@ const initialValues = [1, 2, 2, 2, 3, 4];
 const mySet = new Set(initialValues);
 mySet.add(5);
 mySet.add(7);
-console.log(mySet.has(2)); //returns true or false if the set contains the value
+// console.log(mySet.has(2));-- //returns true or false if the set contains the value
 mySet.delete(3); //deletes a certain value
-console.log(mySet);
+mySet.clear(); //clears everything in the set
+// console.log(mySet);
