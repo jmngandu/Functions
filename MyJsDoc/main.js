@@ -567,4 +567,4 @@ const someFriend = friendss.some((friend) => friend.length === 4);
 
 // console.log(someFriend);
 
-//REDUCE METHOD
+//REDUCE METHOD - It applies the reducer function to each element of an array, accumulating the results into a single value. It is often used to perform calculations or  aggregations on array elements and simplify the array into a single value.
