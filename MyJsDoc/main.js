@@ -552,7 +552,7 @@ let myBest = [
 ];
 
 const brandName = myBest.find((carbrand) => carbrand.carName === "Porsche");
-console.log(brandName);
+// console.log(brandName);
 
 //EVERY METHOD -tests whether all elements in the array pass the condition specified by the provided callback function. It returns true for every element, and false if any element fails the condition.
 
