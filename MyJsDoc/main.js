@@ -606,3 +606,8 @@ mySet.add(7);
 mySet.delete(3); //deletes a certain value
 mySet.clear(); //clears everything in the set
 // console.log(mySet);
+
+for (let item of mySet) {
+  console.log(item);
+}
+//
