@@ -573,4 +573,4 @@ const favNumbers = [1, 2, 3, 4, 5];
 const sum = favNumbers.reduce((e, f) => {
   return e + f;
 });
-console.log(sum);
+// console.log(sum);
