@@ -541,4 +541,4 @@ const wordss = [
 ];
 
 let largeLength = wordss.filter((lale) => lale.length > 6);
-console.log(largeLength);
+// console.log(largeLength);
