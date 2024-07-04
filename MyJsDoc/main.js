@@ -603,11 +603,13 @@ const mySet = new Set(initialValues);
 mySet.add(5);
 mySet.add(7);
 // console.log(mySet.has(2));-- //returns true or false if the set contains the value
+
+// for (let item of mySet) {
+//   console.log(item);
+// }
+
 mySet.delete(3); //deletes a certain value
 mySet.clear(); //clears everything in the set
 // console.log(mySet);
 
-for (let item of mySet) {
-  console.log(item);
-}
-//
+//SYMBOLS IN JAVASCRIPT -Is a unique and immutable primitive data type, a symbol is often used as an identifier for object properties to avoid potential naming conflicts
