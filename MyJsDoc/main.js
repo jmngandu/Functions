@@ -506,3 +506,9 @@ const timesTen = numberValues.map(numberCalc);
 // console.log(timesTen);
 
 //FILTER METHOD - it allows you to create a new array containing elements that pass a certain condition.
+let myCars = [
+  { carName: "Mercedes", carType: "E300" },
+  { carName: "Subaru", carType: "Outback" },
+  { carName: "Toyota", carType: "Hillux" },
+];
+console.log(myCars.filter((myCar) => myCar.carType == "Hillux"));
