@@ -506,5 +506,11 @@ const timesTen = numberValues.map(numberCalc);
 // console.log(timesTen);
 
 //FILTER METHOD - it allows you to create a new array containing elements that pass a certain condition.
-
 const numberValue = [2, 3, 4, 5, 6, 7, 8, 9];
+
+function mathval(xnam) {
+  return xnam ** 5;
+}
+
+let totalmath = numberValue.map(mathval);
+console.log(totalmath);
