@@ -598,6 +598,10 @@ map.set(keyThree, "Value of key three");
 
 //const mySet = new Set() -- how set is created
 
-const initialValues = [1, 2, 2, 2, 3];
+const initialValues = [1, 2, 2, 2, 3, 4];
 const mySet = new Set(initialValues);
+mySet.add(5);
+mySet.add(7);
+console.log(mySet.has(2)); //returns true or false if the set contains the value
+mySet.delete(3); //deletes a certain value
 console.log(mySet);
