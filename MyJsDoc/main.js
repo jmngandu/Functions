@@ -590,6 +590,8 @@ map.set(keyThree, "Value of key three");
 // console.log(map);
 // console.log(map.size);
 
-for (let [key, value] of map) {
-  console.log(`${key} -- ${value}`);
-}
+// for (let [key, value] of map) {
+//   console.log(`${key} -- ${value}`);
+// }
+
+//
