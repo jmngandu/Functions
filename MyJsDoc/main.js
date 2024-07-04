@@ -511,4 +511,6 @@ let myCars = [
   { carName: "Subaru", carType: "Outback" },
   { carName: "Toyota", carType: "Hillux" },
 ];
-console.log(myCars.filter((myCar) => myCar.carType == "Hillux"));
+let filterType = myCars.filter((myCar) => myCar.carType == "Hillux");
+
+console.log(filterType);
