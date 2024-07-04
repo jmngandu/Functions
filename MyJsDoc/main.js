@@ -584,8 +584,12 @@ const keyThree = function () {};
 map.set(keyOne, "Value of key one");
 map.set(keyTwo, "Value of key two");
 map.set(keyThree, "Value of key three");
-console.log(map.keys());
-console.log(map.values());
-console.log(map.delete(keyTwo));
-console.log(map);
-console.log(map.size);
+// console.log(map.keys());
+// console.log(map.values());
+// console.log(map.delete(keyTwo));
+// console.log(map);
+// console.log(map.size);
+
+for (let [key, value] of map) {
+  console.log(`${key} -- ${value}`);
+}
