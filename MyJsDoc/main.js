@@ -548,8 +548,8 @@ let myBest = [
   { carName: "Mercedes", carType: "E300" },
   { carName: "Subaru", carType: "Outback" },
   { carName: "Toyota", carType: "Hillux" },
-  { carName: "Porshe", carType: "cayenne" },
+  { carName: "Porsche", carType: "cayenne" },
 ];
 
-const brandName = myBest.find((carbrand) => carbrand === porche);
+const brandName = myBest.find((carbrand) => carbrand.carName === "Porsche");
 console.log(brandName);
