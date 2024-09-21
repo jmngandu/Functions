@@ -15,6 +15,10 @@ money = parseInt(money); //or money = +money; or money = Number(money);
 money = money.toString();
 // console.log(typeof money);
 
+//slice operator
+let nameofh = "james";
+// console.log(nameofh.slice(1, 3));
+
 // control flow
 let button = 0;
 let text;
@@ -617,4 +621,4 @@ mySet.clear(); //clears everything in the set
 // const mySymbol = Symbol() -- how set is created
 const mySymbol = Symbol();
 
-console.log(mySymbol);
+// console.log(mySymbol);
