@@ -9,15 +9,15 @@ firstName += " he is a good boy";
 // console.log(parseObject);tName.split(" "));
 // console.log(firstName.split("").join(" + "));
 
+//slice operator
+let nameofh = "james";
+// console.log(nameofh.slice(1, 3));
+
 //type operator
 let money = "50";
 money = parseInt(money); //or money = +money; or money = Number(money);
 money = money.toString();
 // console.log(typeof money);
-
-//slice operator
-let nameofh = "james";
-// console.log(nameofh.slice(1, 3));
 
 // control flow
 let button = 0;
