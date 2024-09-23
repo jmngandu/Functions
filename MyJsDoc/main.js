@@ -34,23 +34,6 @@ switch (button) {
 }
 // console.log(text);
 
-let capital;
-let position = 4;
-switch (position) {
-  case 1:
-    capital = 7000;
-    break;
-  case 2:
-    capital = 10000;
-    break;
-  case 3:
-    capital = 15000;
-    break;
-  default:
-    capital = 2000;
-}
-
-console.log(capital);
 //FOR LOOP
 
 for (let i = 0; i < 3; i++) {
