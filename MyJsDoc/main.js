@@ -72,6 +72,12 @@ const c = 2;
 
 //ARRAYS
 
+let me = 0;
+do {
+  console.log("hello people");
+  me++;
+} while (me <= 5);
+
 let fruits = ["mango", "banana", "apple", "orange"];
 let Efruits = ["strawberries", "watermelon", "pineapple"];
 
