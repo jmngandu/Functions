@@ -42,7 +42,9 @@ for (let i = 0; i < 3; i++) {
     // console.log(`The value is ${j}`);
   }
 }
-
+for (let index = 0; index < array.length; index++) {
+  const element = array[index];
+}
 //While LOOP
 
 let i = 0;
