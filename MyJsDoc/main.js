@@ -136,13 +136,6 @@ callbackFunc(function (numb) {
 function greet() {
   return `Hello my name is ${person.names} and i am ${person.age} years old.`;
 }
-const valent = {
-  firstn: "val",
-  lastn: "langiri",
-  hobby: ["kupika", "kulala", "kucheza"],
-};
-valent.love = "james";
-console.log(valent);
 
 const person = {
   names: "James",
