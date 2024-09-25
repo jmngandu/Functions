@@ -139,6 +139,10 @@ function greet() {
 
 // console.log(person.greet());
 //method inside an object in javascript
+function addn(a, b) {
+  return a + b;
+}
+console.log(addn(12, 34));
 const persona = {
   namess: "John",
   ages: 22,
