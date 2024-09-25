@@ -136,7 +136,10 @@ callbackFunc(function (numb) {
 function greet() {
   return `Hello my name is ${person.names} and i am ${person.age} years old.`;
 }
-
+function itsval(hername) {
+  console.log(`its me ${hername}`);
+}
+itsval("valentine");
 const person = {
   names: "James",
   age: 21,
