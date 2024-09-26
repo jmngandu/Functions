@@ -203,6 +203,8 @@ const thisMillisecond = currentDate.getMilliseconds(); //milliseconds
 // }, 3000);
 
 // //stop interval after 10seconds
+greetMe = (nane) => `hello ${nane}`;
+console.log(greetMe("james"));
 
 // const intervalId = setInterval(() => {
 //   // console.log("This function is being executed after an interval");
