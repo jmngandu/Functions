@@ -162,9 +162,7 @@ const myInfo = {
     location: "Westie",
   },
 };
-const dating = new Date();
-const yearly = dating.getFullYear();
-console.log(yearly);
+
 // const jsonString = JSON.stringify(myInfo); //convert to json file
 // const parseObject = JSON.parse(jsonString); //convert to object
 // // console.log(jsonString);
