@@ -302,7 +302,9 @@ function userD(...userData) {
   console.log(userData);
 }
 // userD("javascript", "is fun");
-
+let capital = 200000;
+let isMoney = capital >= 10000 ? "rich buddy" : "poor buddy";
+console.log(isMoney);
 function someone(first, last, ...hobbies) {
   console.log("First Name: ", first);
   console.log("Last Name: ", last);
