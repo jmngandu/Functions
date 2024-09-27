@@ -317,6 +317,11 @@ function someone(first, last, ...hobbies) {
 const family = ["father", "mother", "children"];
 
 const [x, y, z] = family;
+const myno = [2, 3, 4, 5, 6];
+const totalno = myno.map((theno) => {
+  return theno * 2;
+});
+console.log(totalno);
 // console.log(x);
 
 function f() {
@@ -384,6 +389,7 @@ const thePerson = {
   isAge: 20,
   isCountry: "Kenya",
 };
+
 function personInfo(thePerson) {
   console.log(`Name: ${thePerson.isName}`);
   console.log(`Age: ${thePerson.isAge}`);
