@@ -211,15 +211,7 @@ const thisMillisecond = currentDate.getMilliseconds(); //milliseconds
 //   // clearInterval(intervalId);
 //   // console.log("interval stopped");
 // }, 10000);
-function myProducts(a, b, c, d) {
-  console.log("product", a);
-  console.log("product", b);
-  console.log("product", c);
-  console.log("product", d);
-}
-myProducts(1, 2, 3, 4);
-const fruitss = ["mango", "pineapple", "banana", "orange"];
-myProducts(...fruitss);
+
 //TEMPLATE STRINGS//
 
 // console.log(`
