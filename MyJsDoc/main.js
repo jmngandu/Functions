@@ -629,7 +629,7 @@ const mySymbol = Symbol();
 
 function checkNumber(letter) {
   return new Promise((resolve, reject) => {
-    if (letter % 2 === 0) {
+    if (letter % 2 == 0) {
       resolve(`${letter} is an even number`);
     } else {
       reject(`${letter} is an old number`);
@@ -637,6 +637,10 @@ function checkNumber(letter) {
   });
 }
 const numberType = 7;
-checkNumber(numberType).then((message) => {
-  console.log(`success: ${message}`);
-});
+checkNumber(numberType)
+  .then((message) => {
+    console.log(`success: ${message}`);
+  })
+  .catch((error) => {
+    console.log(`Error: ${error}`);
+  });
