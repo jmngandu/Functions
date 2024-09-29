@@ -624,4 +624,5 @@ const mySymbol = Symbol();
 //promise
 // fulfilled - then,finally
 // rejected - catch,then, finally
-//.then - is used to handle successful outcome of a promise in javascript it takes two arguments:(onFulfilled, onRejected)
+//.then() - is used to handle successful outcome of a promise in javascript it takes two arguments:(onFulfilled, onRejected)
+//.catch() - returns a promise and deals with regected case only
