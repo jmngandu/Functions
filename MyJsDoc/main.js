@@ -664,4 +664,17 @@ async function checkData() {
     console.log(error);
   }
 }
-checkData();
+// checkData();
+
+//reading json data
+async function fetchJsonData() {
+  try {
+    const response = await fetch("data.json");
+    if (!response.ok) throw Error(response.statusText);
+    const data = await response.json();
+    console.log(data);
+  } catch (error) {
+    console.log(error);
+  }
+}
+// fetchJsonData();
