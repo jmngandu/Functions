@@ -620,3 +620,7 @@ mySet.clear(); //clears everything in the set
 const mySymbol = Symbol();
 
 // console.log(mySymbol);
+
+//promise
+// fulfilled - then,finally
+// rejected - catch,then, finally
