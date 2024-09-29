@@ -636,11 +636,13 @@ function checkNumber(letter) {
     }
   });
 }
-const numberType = 7;
-checkNumber(numberType)
-  .then((message) => {
-    console.log(`success: ${message}`);
-  })
-  .catch((error) => {
-    console.log(`Error: ${error}`);
-  });
+// const numberType = 7;
+// checkNumber(numberType)
+//   .then((message) => {
+//     console.log(`success: ${message}`);
+//   })
+//   .catch((error) => {
+//     console.log(`Error: ${error}`);
+//   });
+
+//await - is used to wait for a promise, it can be only used inside an async function within regular javascript code
