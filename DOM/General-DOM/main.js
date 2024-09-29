@@ -20,3 +20,9 @@ let telMe = document.querySelector(".telMe");
 let telI = document.createElement("h1");
 telI.innerText = "hello";
 telMe.appendChild(telI);
+
+const btnClick = document.querySelector(".btn-click");
+
+btnClick.addEventListener("click", (event) => {
+  alert(event);
+});
