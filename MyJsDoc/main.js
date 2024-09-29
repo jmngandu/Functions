@@ -646,3 +646,22 @@ function checkNumber(letter) {
 //   });
 
 //await - is used to wait for a promise, it can be only used inside an async function within regular javascript code
+
+function fetchData() {
+  return new Promise((resolve, reject) => {
+    setTimeout(() => {
+      resolve("User data retrieved from the server");
+    }, 2000);
+  });
+}
+
+async function checkData() {
+  try {
+    const theData = await fetchData();
+    console.log(theData);
+    console.log("Execute remaining task");
+  } catch (error) {
+    console.log(error);
+  }
+}
+checkData();
