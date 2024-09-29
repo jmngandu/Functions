@@ -21,6 +21,8 @@ button:hover {
   margin: 1rem;
   padding: 2rem;
 }
-.all-posts:hover {
+.all:hover {
   background-color: #fff;
+  padding: 1rem;
+  border-radius: 1rem;
 }

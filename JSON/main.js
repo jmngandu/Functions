@@ -15,9 +15,11 @@ function makeRequest() {
       data.forEach((element) => {
         output.innerHTML += `
         <br>
+        <div class="all">
         <div>(ID): ${element.id}</div>
         <div>(TITLE): ${element.title}</div>
         <div>(BODY): ${element.body}</div>
+        </div>
         `;
       });
     })
