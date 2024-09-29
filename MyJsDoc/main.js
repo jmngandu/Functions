@@ -626,3 +626,17 @@ const mySymbol = Symbol();
 // rejected - catch,then, finally
 //.then() - is used to handle successful outcome of a promise in javascript it takes two arguments:(onFulfilled, onRejected)
 //.catch() - returns a promise and deals with regected case only
+
+function checkNumber(letter) {
+  return new Promise((resolve, reject) => {
+    if (letter % 2 === 0) {
+      resolve(`${letter} is an even number`);
+    } else {
+      reject(`${letter} is an old number`);
+    }
+  });
+}
+const numberType = 7;
+checkNumber(numberType).then((message) => {
+  console.log(`success: ${message}`);
+});
