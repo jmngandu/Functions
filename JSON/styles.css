@@ -1,0 +1,26 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: lightcoral;
+}
+button {
+  padding: 0.5rem 1rem;
+  border-radius: 1rem;
+  border: none;
+  margin: 1rem;
+}
+button:hover {
+  background-color: lightgreen;
+  color: #fff;
+}
+.all-posts {
+  background-color: #ccc;
+  margin: 1rem;
+  padding: 2rem;
+}
+.all-posts:hover {
+  background-color: #fff;
+}
