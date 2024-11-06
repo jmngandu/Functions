@@ -1,0 +1,33 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100vh;
+}
+.main-area {
+  max-width: 400px;
+  background-color: #000000;
+  height: 400px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 1rem;
+}
+.nav-area {
+  display: flex;
+}
+input,
+button {
+  border: none;
+  outline: none;
+}
+button {
+  background-color: greenyellow;
+}
+button:hover {
+  background-color: coral;
+}
