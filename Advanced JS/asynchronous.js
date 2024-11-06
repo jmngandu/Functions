@@ -16,7 +16,7 @@ let locateRental = (money) => {
     if (money <= 5000) {
       setTimeout(() => {
         resolve(`I have a place to live `);
-      }, 2000);
+      }, 1000);
     } else reject("The rental is too expensive for me");
   });
 };
