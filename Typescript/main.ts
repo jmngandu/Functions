@@ -11,6 +11,7 @@ enum Color {
   red,
   green,
   blue,
-}
+} //enum
 let c: Color = Color.green;
 console.log(c);
+let randomValue: any = 10;
